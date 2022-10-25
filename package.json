@@ -37,7 +37,7 @@
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/index.css --verbose -w",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/index.css",
     "start": "run-p watch:css react-scripts:start",
-    "build": "run-s build:css react-scripts:build",
+    "build": "INLINE_RUNTIME_CHUNK=false run-s build:css react-scripts:build",
     "react-scripts:start": "react-scripts start",
     "react-scripts:build": "react-scripts build",
     "test": "react-scripts test",
