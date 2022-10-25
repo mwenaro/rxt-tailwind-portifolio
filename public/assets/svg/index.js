@@ -1,0 +1,10 @@
+export { default as instagram } from './instagram.svg';
+export { default as twitter } from './twitter.svg';
+export { default as facebook } from './facebook.svg';
+export { default as youtube } from './youtube.svg';
+export { default as linkedin } from './linkedin.svg';
+export { default as instagramDark } from './instagramDark.svg';
+export { default as twitterDark } from './twitterDark.svg';
+export { default as facebookDark } from './facebookdark.svg';
+export { default as youtubeDark } from './youtubeDark.svg';
+export { default as linkedinDark } from './linkedinDark.svg';

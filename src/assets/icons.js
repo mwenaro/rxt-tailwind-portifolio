@@ -1,0 +1,14 @@
+const SVG_PATH = '/assets/svg';
+export const checkboxMarkedCircle = `${SVG_PATH}/checkbox-marked-circle.svg`;
+export const chevronRightCircleOutlined = `${SVG_PATH}/chevron-right-circle-outlined.svg`;
+export const add = `${SVG_PATH}/add.svg`;
+export const instagram = `${SVG_PATH}/instagram.svg`;
+export const facebook = `${SVG_PATH}/facebook.svg`;
+export const twitter = `${SVG_PATH}/twitter.svg`;
+export const youtube = `${SVG_PATH}/youtube.svg`;
+export const linkedin = `${SVG_PATH}/linkedin.svg`;
+export const instagramDark = `${SVG_PATH}/instagramDark.svg`;
+export const facebookDark = `${SVG_PATH}/facebookDark.svg`;
+export const twitterDark = `${SVG_PATH}/twitterDark.svg`;
+export const youtubeDark = `${SVG_PATH}/youtubeDark.svg`;
+export const linkedinDark = `${SVG_PATH}/linkedinDark.svg`;
