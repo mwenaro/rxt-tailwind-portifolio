@@ -1938,6 +1938,18 @@ html {
     opacity: 1;
   }
 }
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
 .bg-theme {
   --tw-bg-opacity: 1;
   background-color: rgb(248 248 248 / var(--tw-bg-opacity));
