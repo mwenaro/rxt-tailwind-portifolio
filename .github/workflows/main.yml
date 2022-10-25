@@ -29,4 +29,4 @@ jobs:
           password: ${{ secrets.ftp_password }}
           dangerous-clean-slate: true
           local-dir: ./build/
-          server-dir: /portifolio.mwerothewebmaker.com/
+          server-dir: /public_dir/portifolio.mwerothewebmaker.com/
