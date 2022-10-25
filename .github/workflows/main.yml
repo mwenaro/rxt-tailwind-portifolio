@@ -28,5 +28,5 @@ jobs:
           username: ${{ secrets.ftp_name }}
           password: ${{ secrets.ftp_password }}
           local-dir: ./build/
-          server-dir: /public_dir/portifolio.mwerothewebmaker.com/
+          server-dir: /home/mwerothe/portifolio.mwerothewebmaker.com
           dangerous-clean-slate: true
