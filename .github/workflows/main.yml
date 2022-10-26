@@ -1,5 +1,5 @@
 on:
-  pull:
+  push:
     branches: main
 
 name: 🚀 Deploy website on push
