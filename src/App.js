@@ -1,5 +1,5 @@
 import { Contact, Home, Projects, Skills, Testimonials } from 'components';
-import { Nav, PageWrapper } from 'Layout';
+import { MainSection, Nav, PageWrapper } from 'Layout';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -9,11 +9,13 @@ function App() {
       <BrowserRouter>
         <PageWrapper>
           <Nav />
-          <Home />
-          <Skills />
-          <Projects />
-          <Testimonials />
-          <Contact />
+          <MainSection>
+            <Home />
+            <Skills />
+            <Projects />
+            <Testimonials />
+            <Contact />
+          </MainSection>
         </PageWrapper>
       </BrowserRouter>
     </div>
